@@ -1,9 +1,11 @@
-const index = () => {
+import Layout from '@/components/Layout'
+
+const HomePage = () => {
   return (
-    <div>
-       <h1> DJ EVENTS</h1>
-    </div>
+    <Layout>
+          <h1>Home</h1>
+    </Layout>
   )
 }
 
-export default index
+export default HomePage

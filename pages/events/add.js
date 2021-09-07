@@ -1,9 +1,11 @@
-const add = () => {
+import Layout from '@/components/Layout'
+
+const AddEventPage = () => {
     return (
-        <div>
+        <Layout title='Add New Event'>
             <h1>Add Events</h1>
-        </div>
+        </Layout>
     )
 }
 
-export default add
+export default AddEventPage
